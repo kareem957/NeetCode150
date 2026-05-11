@@ -29,7 +29,7 @@ class Solution {
             fast = fast.next.next;
         }
 
-        // Step 2: reverse second half  ✅ missing in your code
+        // Step 2: reverse second half
         let second = slow.next;
         slow.next = null;
         let prev = null;
