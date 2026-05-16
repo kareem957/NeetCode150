@@ -1,4 +1,4 @@
-// const nums = [5,3,4,2,1];
+const nums = [5,3,4,2,1];
 
 // const N = nums.length;
 // const max = Math.max(...nums);
