@@ -5,6 +5,7 @@ class Solution {
      */
     hasDuplicate(nums) {
         const hash = {};
+        
         for(const num of nums) {
             hash[num] = hash[num] ? hash[num] + 1 : 1; // optimise this line
             // hash[num] = (hash[num] || 0) + 1; // alternative way to write this line
